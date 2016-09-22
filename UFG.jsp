@@ -10,21 +10,46 @@
 
 <body>
 
-	<h2><%= "Cálculo de aprovação UFG" %></h2>
+	<font face="verdana" color="gray">
+	<center> <h3>
+		<%= "Cálculo de aprovação UFG" %>
+	</center> </h3>
 
 	<form name="nota UFG" action="Resultado.jsp" method="post">
-		<h3>Nome:</h3>
+		<b><font size="3">Nome:</font></b>
+		 <br>
 			<input type="text" name="nome"/>
-			<br> Exemplo: Fulano de Tal da Silva
-		<h3>Frequência:</h3>
+		 <br>
+			<font size="1">
+				Exemplo: Fulano de Tal da Silva
+			</font>
+		 <br>
+		 <br>
+
+		<b><font size="3">Frequência:</font></b>
+		 <br>
 			<input type="text" name="freq" required double/> %
-			<br> Porcentagem (Valor entre 0 e 100)
-		<h3>Nota Final:</h3>
+		 <br>
+			<font size="1">
+				Porcentagem (Valor entre 0 e 100)
+			</font>
+		 <br>
+		 <br>
+
+		<b><font size="3">Nota:</b></font>
+		 <br>
 			<input type="text" name="nota" required double/>
-			<br> Valor entre 0.0 e 10.0 <br>
+		 <br>
+			<font size="1">
+				Valor entre 0.0 e 10.0
+			</font>
+		 <br>
+		 <br>
+
 		<input type="submit" value="Verificar">
 	</form>
-
+	</font>
+	
 	<script>
 		function myFunction() {
 		    document.getElementById("myForm").submit();
