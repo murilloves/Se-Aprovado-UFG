@@ -14,13 +14,18 @@
 	%>
 
 <body>
-	<h4>
+	<center>
+	<font face="arial" color="grey" size="2">
 		<%= varName + ", sua nota é: "+ varGrades%>
-		<%= " e sua frequência foi de "+ varFreq +"%, portanto:"%>
+		<%= " e sua frequência foi de "+ varFreq +"%, portanto, você foi:"%>
 		<br>
-	</h4>
+		<br>
+	</font>
+	</center>
 
-	<h3><%
+	<center>
+	<b><font face="arial" color="grey" size="3">
+	<%
 	if(varGrades < 6){
 		if (varFreq < 75){
 			out.println("Reprovado por média e frequência");
@@ -36,7 +41,9 @@
 			out.println("Aprovado");
 		}
 	}
-	%> </h3>
+	%>
+	</b></font>
+	</center>
 
 </body>
 </html>
