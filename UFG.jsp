@@ -5,12 +5,23 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>JSP TUTO - IMC Programacao Web - Murillo Vieira 201610082</title>
+	<style type= "text/css">
+		body{
+			background-color: #666699;
+			margin-left: 20%;
+			margin-right: 20%;
+			border: 1px dotted white;
+			padding: 10px 10px 10px 10px;
+			font-family: sans-serif;
+		}
+	</style>
+
 </head>
 
 
 <body>
 
-	<font face="verdana" color="gray">
+	<font face="verdana" color="white">
 	<center> <h3>
 		<%= "Cálculo de aprovação UFG" %>
 	</center> </h3>
