@@ -1,3 +1,3 @@
 # Se-Aprovado-UFG
 
-v1.0 Sem interface gráfica
+v1.1 Com algumas cores.
